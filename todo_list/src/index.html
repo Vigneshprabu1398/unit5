@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="../build/bundle.js"></script>
+    <div class="main">
+        <div class="addprd">
+            <h1 style="color: teal;">Add Product</h1>
+            <hr>
+            <form id="myForm">
+            <p>Category</p>
+            <select name="category" id="cat">
+                <option value="">--choose an Category--</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Home Appiance">Home Appiance</option>
+                <option value="Kitchen Appiance">Kitchen Appiance</option>
+            </select>
+            <p>Title</p>
+            <input id="title" type="text" placeholder="Set a title...">
+            <p>Descripition</p>
+            <textarea name="descripition" id="tarea" cols="30" rows="5"></textarea>
+            <p>Price</p>
+            <input id="price" type="text" placeholder="Enter price $"><br>
+            <input onclick="myfun()" id="submit" type="submit" value="Add">
+        </form>
+        </div>
+
+        <div class="two">            
+        <h1 style="color: teal;margin-top: 30px;">Product Info</h1>
+        <hr>
+            <table class="myTable">
+                <thead>
+                    <tr>
+                        <th># ID</th>
+                        <th>Category</th>
+                        <th>Title</th>
+                        <th>Descripition</th>
+                        <th>Price</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody style=" padding: 10px; box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;">  
+                              </tbody>
+            </table>
+
+        </div>
+    </div>
+    
+</body>
+</html>
