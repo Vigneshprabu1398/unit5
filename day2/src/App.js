@@ -1,5 +1,7 @@
 import './App.css';
 
+
+
 function App() {
   const mobile = ["Android", "Black Berry", "iPhone", "Windows phone"];
   const brand = ["samsung", "htc", "iPhone", "nokia"]
@@ -20,7 +22,7 @@ function App() {
       </ul>
     </div>
   );
-
+ 
 }
 
 export default App;
