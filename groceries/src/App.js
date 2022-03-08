@@ -1,14 +1,12 @@
 import './App.css';
-import { Todo } from './components/Todo';
+import { Todo } from './components/Grocery';
 
 
 
 function App() {
-  const mobile = ["Android", "Black Berry", "iPhone", "Windows phone"];
-  const brand = ["samsung", "htc", "iPhone", "nokia"]
-
-  return(
+    return(
   <div className='App'>
+    <h1>Groceries List</h1>
     <Todo />
   </div> 
   );
