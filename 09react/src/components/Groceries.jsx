@@ -12,6 +12,7 @@ export const Groceries = () => {
         })
     }, [])
     return (
+        
         <div>
             <input type="text" onChange={(e)=>setText(e.target.value)}/>
             <button onClick={()=>{
