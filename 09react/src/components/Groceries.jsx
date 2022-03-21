@@ -6,7 +6,7 @@ export const Groceries = () => {
     const [groceries, setGroceries] = useState([])
     useEffect(()=>{
         axios
-        .get("http://localhost:3000/groceries")
+        .get("http://localhost:4000/groceries")
         .then(res=>{
             setGroceries(res.data);
         })
@@ -16,7 +16,7 @@ export const Groceries = () => {
         <div>
             <input type="text" onChange={(e)=>setText(e.target.value)}/>
             <button onClick={()=>{
-                fetch('http://localhost:3000/groceries' ,{
+                fetch('http://localhost:4000/groceries' ,{
                 method: "POST",
                 body: JSON.stringify({title: text, purchased: false}),
                 headers:{

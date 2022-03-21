@@ -27,7 +27,6 @@ function App() {
         placeholder="Enter Age"
         />
       </form>
-      console.log("object");
     </div>
   );
 }
