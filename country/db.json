@@ -1,0 +1,63 @@
+{
+  "city": [
+    {
+      "id": "1",
+      "country": "India",
+      "city": "Coimbatore",
+      "population": "20000000"
+    },
+    {
+      "id": "2",
+      "country": "India",
+      "city": "Erode",
+      "population": "5000000"
+    },
+    {
+      "id": "3",
+      "country": "USA",
+      "city": "Cincinati",
+      "population": "400000"
+    },
+    {
+      "id": "4",
+      "country": "UK",
+      "city": "London",
+      "population": "300000"
+    },
+    {
+      "id": "5",
+      "country": "DUBAI",
+      "city": "Abudabi",
+      "population": "700000"
+    },
+    {
+      "id": "6",
+      "country": "Russia",
+      "city": "Putin",
+      "population": "80000000"
+    },
+    {
+      "id": "8",
+      "country": "China",
+      "city": "hiroshima",
+      "population": "134568675654"
+    }
+  ],
+  "country": [
+    {
+      "country": "India"
+    },
+    {
+      "country": "Dubai"
+    },
+    {
+      "country": "USA"
+    },
+    {
+      "country": "UK"
+    },
+    {
+      "country": "Russia"
+    }
+  ]
+}
